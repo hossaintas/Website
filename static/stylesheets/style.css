@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+body {
+    background-color: "white";
+    font-family: "Verdana", sans-serif;
+    font-color: "#050A44";
+    font-size: 25px;
+
+}
+
+
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #4ea8de;
+  color: white;
+  font-size: 30px;
+  font-family: "Verdana", monospace;
+  letter-spacing: 0.5rem;
+
+}
+.topnav {
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    background-color: "white";
+}
+.topnav a {
+  float: center;
+  color: black;
+  text-align: center;
+  padding: 5px 120px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #fbe671;
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+.topnav a.active {
+  border-bottom: double black;
+  color: black;
+}
+.computers {
+    img {
+        position: fixed;
+        align: left;
+        top: 50px;
+        left: 620px;
+        border-radius: 15px 15px 15px 15px;
+    }
+}
+.descrip {
+}
+.blogs {
+
+}
+
+.p {
+    font-color:#141619;
+}
+.h {
+    font-color:#141619;
+}
